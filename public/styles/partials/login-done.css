@@ -1,0 +1,25 @@
+#page-login-done {
+    width: 100vw;
+    height: 100vh;
+    background: var(--color-primary);
+}
+
+#page-login-done .container {
+    width: 100vw;
+    height: 100vh;
+    background: url(/images/success-background.svg);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .text h1 {
+    color: var(--color-title-in-primary);
+    font-size: 3rem;
+}
+
+.container .text p {
+    color: var(--color-text-in-primary);
+    font-size: 1.5rem;
+}
